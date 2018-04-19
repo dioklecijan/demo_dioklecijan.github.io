@@ -1,13 +1,10 @@
-@import "variables";
+@import 'variables';
 
-*{
-  font-family: "italic",Helvetica,Arial,"Heiti SC","Microsoft YaHei";
-  //font-family: "Montserrat", "Helvetica Neue", "Hiragino Sans GB", "LiHei Pro", Arial, sans-serif;
-}
-
-body,html{
+body,
+html {
   margin: 0;
   padding: 0;
+  font-family: "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'HelveticaNeue-Light', 'Ubuntu', 'Droid Sans', sans-serif";
 }
 
 body {
@@ -15,24 +12,24 @@ body {
   // avoid the effect of the scrollbar's width
 }
 
-.red{
-  color: red
+.red {
+  color: red;
 }
-.hide{
+.hide {
   display: none !important;
 }
 
-.show-block{
+.show-block {
   display: block !important;
 }
 
-.show-block{
+.show-block {
   animation: showBlock @transitionTime forwards;
   display: block !important;
 }
 
 @keyframes showBlock {
-  from{
+  from {
     opacity: 0;
     transform: translateY(-100%);
   }
@@ -42,7 +39,7 @@ body {
   }
 }
 
-.hide-block{
+.hide-block {
   display: block !important;
   animation: hideBlock @transitionTime forwards;
   opacity: 1;
@@ -50,7 +47,7 @@ body {
 }
 
 @keyframes hideBlock {
-  from{
+  from {
     opacity: 1;
     transform: translateY(0);
   }
@@ -61,37 +58,45 @@ body {
   }
 }
 
-.show-flex-fade{
+.show-flex-fade {
   animation: showFade @transitionTime forwards;
   display: flex !important;
 }
 
-.hide-flex-fade{
+.hide-flex-fade {
   animation: hideFade @transitionTime forwards;
 }
 
 @keyframes showFade {
-  from{
+  from {
     opacity: 0;
   }
-  to{
+  to {
     opacity: 1;
   }
 }
 
 @keyframes hideFade {
-  from{
+  from {
     opacity: 1;
   }
-  to{
+  to {
     opacity: 0;
     display: none !important;
   }
 }
 
-.no-indent{
+.no-indent {
   text-indent: 0 !important;
-  p,h1,h2,h3,h4,h5,h6,ul,ol{
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ul,
+  ol {
     text-indent: 0 !important;
   }
 }

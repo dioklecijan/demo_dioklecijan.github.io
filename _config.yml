@@ -30,7 +30,7 @@ skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
-default_layout: post
+default_layout: draft
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
@@ -93,3 +93,13 @@ search:
 
 twitter_username: mario_gud
 github_username: dioklecijan
+
+# Markdown
+marked:
+  gfm: true
+  tables: true
+  breaks: false
+  pedantic: false
+  sanitize: false
+  smartLists: true
+  smartypants: false

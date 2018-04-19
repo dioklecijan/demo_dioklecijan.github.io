@@ -1,6 +1,6 @@
 /*varibles*/
 * {
-  font-family: 'italic', Helvetica, Arial, 'Heiti SC', 'Microsoft YaHei';
+  font-family: Helvetica, Arial, 'Heiti SC', 'Microsoft YaHei';
 }
 body,
 html {
@@ -610,7 +610,7 @@ body {
 .post-content {
   line-height: 20px;
   font-size: 15px;
-  text-indent: 2em;
+  /* text-indent: 2em; */
   color: #333333;
   font-weight: 300;
 }
@@ -633,9 +633,9 @@ body {
 }
 .post-content p {
   color: #4a4a4a;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 30px;
-  text-indent: 2em;
+  /* text-indent: 2em; */
   letter-spacing: 1px;
 }
 .post-content p img {
